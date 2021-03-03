@@ -1,0 +1,213 @@
+<breadboard type="Breadboard">
+<GX>
+<XOFFSET>0</XOFFSET>
+<YOFFSET>0</YOFFSET>
+<ZOOM>1</ZOOM>
+</GX>
+	<properties>
+	</properties>
+
+	<projectproperties>
+		<webroot></webroot>
+		<startuppage></startuppage>
+		<launchujserver></launchujserver>
+	</projectproperties>
+	<components>
+		<component>
+			<X>630</X>
+			<Y>154</Y>
+			<rotation>0</rotation>
+			<locked>False</locked>
+			<class>com.virtualbreadboard.sim.components.userio.Seg7</class>
+				<properties>
+					<property>
+						<name>left</name>
+						<value>630</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>top</name>
+						<value>154</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>orientation</name>
+						<value>0</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>FabID</name>
+						<value></value>
+						<description></description>
+					</property>
+				</properties>
+
+		</component>
+		<component>
+			<X>546</X>
+			<Y>182</Y>
+			<rotation>90</rotation>
+			<locked>False</locked>
+			<class>vbb.componentImpl.PICMICROS.PIC16F877A_IL</class>
+				<properties>
+					<property>
+						<name>Project</name>
+						<value></value>
+						<description>Select a source project for this device (mpasm)</description>
+					</property>
+					<property>
+						<name>Filename</name>
+						<value>../setesegmento.hex</value>
+						<description></description>
+					</property>
+					<property>
+						<name>Watch Dog Timer</name>
+						<value>OFF</value>
+						<description></description>
+					</property>
+					<property>
+						<name>Package</name>
+						<value></value>
+						<description></description>
+					</property>
+					<property>
+						<name>Clock Speed</name>
+						<value>4Mhz</value>
+						<description></description>
+					</property>
+					<property>
+						<name>EEPROM</name>
+						<value></value>
+						<description>(256)</description>
+					</property>
+					<property>
+						<name>OSCILLATOR</name>
+						<value>XT</value>
+						<description></description>
+					</property>
+					<property>
+						<name>MCLRE</name>
+						<value>A5-MCLR</value>
+						<description></description>
+					</property>
+					<property>
+						<name>TMR1 OSC</name>
+						<value>32.768khz</value>
+						<description></description>
+					</property>
+					<property>
+						<name>left</name>
+						<value>546</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>top</name>
+						<value>182</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>orientation</name>
+						<value>90</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>FabID</name>
+						<value></value>
+						<description></description>
+					</property>
+				</properties>
+
+		</component>
+		<component>
+			<X>210</X>
+			<Y>140</Y>
+			<rotation>0</rotation>
+			<locked>False</locked>
+			<class>com.virtualbreadboard.sim.components.userio.Seg7</class>
+				<properties>
+					<property>
+						<name>left</name>
+						<value>210</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>top</name>
+						<value>140</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>orientation</name>
+						<value>0</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>FabID</name>
+						<value></value>
+						<description></description>
+					</property>
+				</properties>
+
+		</component>
+	</components>
+	<links>
+			<g id="NETLIST_REPRESENTATION" stroke="blue" stroke-width="1">
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="210" x2="630" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="224" x2="644" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="238" x2="658" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="252" x2="672" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="266" x2="686" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="700" y1="168" x2="700" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="294" x2="714" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="308" x2="728" y2="168" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="210" x2="210" y2="154" width="1" layer="" />
+				<line x1="210" y1="154" x2="210" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="224" x2="224" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="238" x2="238" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="252" x2="252" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="266" x2="266" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="280" x2="280" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="294" x2="294" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="336" y1="308" x2="308" y2="154" width="1" layer="" />
+			</g>
+			<g stroke="blue" stroke-width="1">
+				<line x1="560" y1="280" x2="700" y2="168" width="1" layer="" />
+			</g>
+		</g>
+		<g id="NETLABELS" stroke="" font-family="courier new" font-size="8" text-anchor="middle">
+		</g>
+		<g id="JUNCTIONS" stroke="black" fill="black">
+		</g>
+
+	</links>
+</breadboard>

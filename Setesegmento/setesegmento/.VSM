@@ -1,0 +1,16 @@
+<VBBSolution name="setesegmento" perspective="VBB - Rapid Prototyping System">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+		<PANE>[setesegmento]Breadboard0.VBB</PANE>
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[setesegmento]Breadboard0.VBB</PANE>
+	</VIEW>
+	<VIEW id="3">
+		<PANE>[setesegmento]Breadboard0.VBB</PANE>
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>setesegmento.SIM</PROJECT>
+</PROJECTS>
+</VBBSolution>

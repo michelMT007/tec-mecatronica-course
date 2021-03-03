@@ -1,0 +1,28 @@
+[PROJECT]
+Target=setesegmento.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[setesegmento]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=setesegmento
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=C:\Curso PIC\Setesegmento\setesegmento.c
+2=C:\Curso PIC\Setesegmento\setesegmento.h
+3=
+[Target Data]
+OptionString=-p +FM
+FileList=C:\Curso PIC\Setesegmento\setesegmento.c
+[Units]
+Count=1
+1=setesegmento.c (main)
+Link=0

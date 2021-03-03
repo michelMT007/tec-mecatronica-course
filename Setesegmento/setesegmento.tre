@@ -1,0 +1,15 @@
+ÀÄsetesegmento
+   ÀÄMAIN  0/86  Ram=1
+      ÃÄ??0??
+      ÃÄAjustaDezena  0/90  Ram=1
+      ÀÄContaUnidades  0/83  Ram=0
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÃÄ@delay_ms1  0/20  Ram=1
+         ÀÄ@delay_ms1  0/20  Ram=1

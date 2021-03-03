@@ -1,0 +1,28 @@
+[PROJECT]
+Target=LEDS.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[LEDS]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=LEDS
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=C:\Curso PIC\LED8\LEDS.c
+2=C:\Curso PIC\LED8\LEDS.h
+3=
+[Target Data]
+OptionString=-p +FM
+FileList=C:\Curso PIC\LED8\LEDS.c
+[Units]
+Count=1
+1=LEDS.c (main)
+Link=0
