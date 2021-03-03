@@ -1,0 +1,33 @@
+# Project: PortaParalela
+# Makefile created by Dev-C++ 5.0.0.4
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = 
+OBJ      = main.o Ler.o $(RES)
+LINKOBJ  = main.o Ler.o $(RES)
+LIBS     = -L"D:/Arquivos de Programas(x86)/Dev-Cpp/lib" -L"D:/Arquivos de Programas(x86)/Dev-Cpp/lib/gcc" -static-libstdc++ -static-libgcc  
+INCS     = -I"D:/Arquivos de Programas(x86)/Dev-Cpp/include" 
+CXXINCS  = -I"D:/Arquivos de Programas(x86)/Dev-Cpp/include" 
+BIN      = PortaParalela.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS   = $(INCS)  
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before PortaParalela.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "PortaParalela.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Ler.o: Ler
+	$(CPP) -c Ler -o Ler.o $(CXXFLAGS)
